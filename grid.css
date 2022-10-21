@@ -1,0 +1,32 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 30px 200px auto 100px;
+    background-color: aqua;
+
+
+}
+ .grid-container{   
+    display: grid;
+    grid-template-rows: 100px 300px;
+}
+div:hover{
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+}
+@keyframes example
+{
+    from{background-color: red;}
+    to {background-color: yellow;}
+}
+.button{
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid black;
+    transition:width 2s,height 3s,line-height 3s;
+    animation-name: example;
+    animation-duration: 10s; 
+    animation-delay: 5s;
+}
